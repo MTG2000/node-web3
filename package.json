@@ -1,0 +1,27 @@
+{
+  "name": "private-records",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
